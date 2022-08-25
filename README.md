@@ -12,4 +12,6 @@ The following are the steps to be follwed to perform SDM with the software Maxen
 
 2) The next step is to download environmental variables for different time periods. Bioclim (https://www.worldclim.org/data/bioclim.html) has bioclimatic variables for different time periods, historical, paleoclimatic, future and present. For paleoclimatic environmental varibles, one can also look at the Paleoclim website (http://www.paleoclim.org/), which has bioclimatic variables for different Pleistocene and Pliocene time periods. For our study to predict distribution of each species, we downloaded the paleoclimate data for three time periods: Last glacial maximum (ca. 21 ka), Last interglacial (ca. 130 ka) and MIS19 (ca. 787 ka) with a  spatial resolution of 2.5 arc-minutes (~5 km). 
 
-3) 
+3) The environmental layers are found in the format of BIL or TIFF files. These should be converted to ASCII files. For this, the open source software (QGIS Version 3.26.2) can be used. 
+
+4) 
