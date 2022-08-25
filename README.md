@@ -1,5 +1,5 @@
 # Species-Distribution-Modeling
-This repository contains all the files, code and workflow required for the performance of Ecological niche modeling using MaxEntg
+This repository contains all the files, code and workflow required for the performance of Ecological niche modeling using MaxEnt (version 3.3.4).
 
 The first step is to download MaxEnt sofware, which is open source sofware used for modeling species niches and distributions by applying a techniue called moaximum entropy modeling. From a set of environmental variables and occurrence records of the species, one can predict the probability of disctribution of species in the area of interest. 
 The following are the steps to be follwed to perform SDM with the software Maxent. 
