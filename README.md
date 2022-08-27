@@ -27,5 +27,9 @@ The following are the steps to be follwed to perform SDM with the software Maxen
 In samples; upload the occurrence records. In Environmental layers; add the bioclimatic layers in ASCII format.
 Instead of Auto features, select the features from the ENMevaluate results. (For example, if the reulsts gave you delta.AICc value 0, for LQPTH, then you will select all the 5 featues, linear, quadratic, threshold, hinge and product. 
 Check create response curves, do jackknife, select the output in cloglog form and select the output directory. 
-Go to settings; in basic, check random seed, enter the regularization multiplier from the ENMevaluate results, background points from the R script and choose 10 replicates.
+Go to settings; in basic, check random seed, enter the regularization multiplier from the ENMevaluate results, background points from the R script and choose 10 replicates. In advanced; check write plot data. If you have a bias file, add it in the bias file section. In Experimental; check write background predictions. Everything else, should be default settings. 
+
+7) Run the MaxEnt for species distribution modeling. 
+
+
 
